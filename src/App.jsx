@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Prayer from "./components/prayer";
+import PrayerPage from "./components/PrayerPage";
+
 
 function App() {
   const [prayerTimes, setPrayerTimes] = useState({});
@@ -73,11 +74,11 @@ function App() {
             </div>
           </div>
 
-          <Prayer name="الفجر" time={formatTimes(prayerTimes.Fajr)} />
-          <Prayer name="الضهر" time={formatTimes(prayerTimes.Dhuhr)} />
-          <Prayer name="العصر" time={formatTimes(prayerTimes.Asr)} />
-          <Prayer name="المغرب" time={formatTimes(prayerTimes.Maghrib)} />
-          <Prayer name="العشاء" time={formatTimes(prayerTimes.Isha)} />
+          <PrayerPage name="الفجر" time={formatTimes(prayerTimes.Fajr)} />
+          <PrayerPage name="الضهر" time={formatTimes(prayerTimes.Dhuhr)} />
+          <PrayerPage name="العصر" time={formatTimes(prayerTimes.Asr)} />
+          <PrayerPage name="المغرب" time={formatTimes(prayerTimes.Maghrib)} />
+          <PrayerPage name="العشاء" time={formatTimes(prayerTimes.Isha)} />
         </div>
       </section>
     </>

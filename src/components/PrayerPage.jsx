@@ -1,4 +1,4 @@
-export default function Prayer({name , time}) {
+export default function PrayerPage({name , time}) {
   return (
     <>
       <div className="prayer">
