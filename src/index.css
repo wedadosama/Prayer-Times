@@ -78,7 +78,7 @@ section .prayer {
   margin-bottom: 20px;
   color: #fff;
   font-size: 22px;
-  border-radius: 5px;
+  border-radius: 6px;
   border-bottom: 1px solid #d7d7d74e;
   flex-wrap: wrap;
 }
