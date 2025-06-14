@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Prayer from "./Component/prayer";
+import Prayer from "./Components/prayer";
 
 function App() {
   const [prayerTimes, setPrayerTimes] = useState({});
